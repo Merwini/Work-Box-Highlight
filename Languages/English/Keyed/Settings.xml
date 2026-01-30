@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<WBH_SettingsLabel>Checkbox highlight colors</WBH_SettingsLabel>
+	<WBH_Editing>Editing:</WBH_Editing>
+	<WBH_Background>Background</WBH_Background>
+	<WBH_Border>Border</WBH_Border>
+	<WBH_Check>Checkmark</WBH_Check>
+	<WBH_Apply>Apply</WBH_Apply>
+	<WBH_Preview>Preview:</WBH_Preview>
+	<WBH_Hex>Hex code:</WBH_Hex>
+	<WBH_Error_NoInput>Enter a 6-character hex code (RRGGBB).</WBH_Error_NoInput>
+	<WBH_Error_Length>Hex code must be exactly 6 characters (RRGGBB).</WBH_Error_Length>
+	<WBH_Error_Invalid>Invalid hex characters (0-9, A-F).</WBH_Error_Invalid>
+	<WBH_PreviewTooltip>Background: {0}\nBorder: {1}\nCheckmark: {2}</WBH_PreviewTooltip>
+</LanguageData>

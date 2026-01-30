@@ -1,3 +1,4 @@
 <Solution>
+  <Project Path="../BetterWorkTabCompat/BetterWorkTabCompat.csproj" Id="397e0d2f-4a1c-482e-9243-799c9376fb67" />
   <Project Path="WorkBoxHighlight.csproj" Id="04567114-cec4-45e1-a3dd-a37f71f5f681" />
 </Solution>

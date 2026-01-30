@@ -48,7 +48,9 @@
   <ItemGroup>
     <Compile Include="HarmonyPatches.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="WorkTypeCache.cs" />
+    <Compile Include="WBH_Mod.cs" />
+    <Compile Include="WBH_Settings.cs" />
+    <Compile Include="WBH_Caches.cs" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Krafs.Publicizer">
