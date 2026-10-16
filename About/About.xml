@@ -5,6 +5,7 @@
 	<packageId>nuff.workboxhighlight</packageId>
 	<supportedVersions>
 		<li>1.6</li>
+		<li>1.7</li>
 	</supportedVersions>
 	<description>In the Work Tab, highlights the work type of the colonist's current job.</description>
 	<modDependencies>
@@ -15,4 +16,8 @@
 			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
 		</li>
 	</modDependencies>
+	<loadAfter>
+		<li>Ludeon.RimWorld</li>
+		<li>Coolnether123.BetterWorkTab</li>
+	</loadAfter>
 </ModMetaData>
