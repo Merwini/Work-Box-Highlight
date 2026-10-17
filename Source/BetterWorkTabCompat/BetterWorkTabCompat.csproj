@@ -1,6 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <OutputPath>../../Compatibility/Better Work Tab/Assemblies/</OutputPath>
+    <OutputPath>../../1.7/Compatibility/Better Work Tab/Assemblies/</OutputPath>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="0Harmony">
