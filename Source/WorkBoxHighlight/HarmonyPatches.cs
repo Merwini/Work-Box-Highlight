@@ -193,7 +193,7 @@ public class HarmonyPatches
             */
             for (int i = 0; i < codes.Count; i++)
             {
-                if (drawCheckIndex == -1 && codes[i].opcode == OpCodes.Ldsfld && codes[i].operand is FieldInfo fi && fi == FI_WorkBoxCheckTex)
+                if (drawCheckIndex == -1 && codes[i].LoadsField(FI_WorkBoxCheckTex))
                 {
                     for (int j = i; j >= 0; j--)
                     {
@@ -229,7 +229,7 @@ public class HarmonyPatches
 	                    IL_0123: call void Verse.Widgets::Label(valuetype [UnityEngine.CoreModule]UnityEngine.Rect, string)
                 */
 
-                else if (setPriorityColorIndex == -1 && codes[i].opcode == OpCodes.Call && codes[i].operand is MethodInfo mi && mi == MI_ColorOfPriority)
+                else if (setPriorityColorIndex == -1 && codes[i].Calls(MI_ColorOfPriority))
                 {
                     for (int j = i; j >= 0; j--)
                     {
